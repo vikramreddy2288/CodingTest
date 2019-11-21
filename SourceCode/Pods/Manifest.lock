@@ -1,0 +1,22 @@
+PODS:
+  - SDWebImage (4.4.7):
+    - SDWebImage/Core (= 4.4.7)
+  - SDWebImage/Core (4.4.7)
+  - Shimmer (1.0.2)
+
+DEPENDENCIES:
+  - SDWebImage (~> 4.0)
+  - Shimmer
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
+    - Shimmer
+
+SPEC CHECKSUMS:
+  SDWebImage: c10d14a8883ebd89664f02a422006f66a85c0c5d
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+
+PODFILE CHECKSUM: 7479961c41d1a98accc80b5c6999f78082222f7a
+
+COCOAPODS: 1.8.4
