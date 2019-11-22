@@ -54,10 +54,12 @@ class HomeViewController: UIViewController {
 extension HomeViewController: HomeViewModelDelegate {
     
     func reloadView(tableOptions: [TableOption]) {
-        if tableOptions.count == 0 {
-            loadErrorScreen()
-        } else {
-            loadTableView()
+        DispatchQueue.main.async {
+            if tableOptions.count == 0 {
+                self.loadErrorScreen()
+            } else {
+                self.loadTableView()
+            }
         }
     }
 
